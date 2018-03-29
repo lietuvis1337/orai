@@ -1,0 +1,63 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.input-group {
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 0px;
+}
+img {
+  margin: 0 auto;
+}
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.form-control {
+  border-radius: 0px;
+}
+.btn {
+  background-color: orange;
+  border-radius: 0px;
+}
+.orai {
+  margin-top: 30px;
+}
+.tab-content {
+  text-align: left;
+  padding: 15px;
+}
+.nav-tabs > li > a {
+  border-radius: 0px;
+}
+form {
+  padding-top: 10px;
+}
+li {
+  text-align: left;
+}
+@media (max-width:992px) {
+  #api_key {
+	margin-bottom: 20px;
+  }
+  li {
+	width: 50%;
+  }
+  #main {
+	width: 100%;
+  }
+}
+.alert {
+  border-radius: 0px;
+}
