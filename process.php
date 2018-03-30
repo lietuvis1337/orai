@@ -9,7 +9,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if (isset($_POST['add_city'])) {
   $api_key = $_POST['api_key'];
   $miestas = $_POST['miestas'];
-  if ((preg_match('/^[A-Za-z0-9]+$/', $api_key)) && (preg_match('/^[A-Za-z0-9]+$/', $miestas))) {
+  if ((preg_match('/^[A-Za-z0-9]+$/', $api_key)) && (preg_match('/^[A-Ža-ž0-9]+$/', $miestas))) {
     $sql = "SELECT * FROM `duomenys` WHERE `miestas`='$miestas'";
     $uzklausa = $conn->query($sql);
     if ($uzklausa->num_rows == 0) {
